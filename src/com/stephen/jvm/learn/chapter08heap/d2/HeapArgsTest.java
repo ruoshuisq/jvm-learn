@@ -1,6 +1,7 @@
 package com.stephen.jvm.learn.chapter08heap.d2;
 
 /**
+ * 参考oracle官方文档 https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html
  * 测试堆空间常用的jvm参数：
  * -XX:+PrintFlagsInitial : 查看所有的参数的默认初始值
  * -XX:+PrintFlagsFinal  ：查看所有的参数的最终值（可能会存在修改，不再是初始值）
