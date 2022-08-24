@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T14:58:46.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63" etag="KnVhVKxTsblmKd71a7QZ" version="20.2.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-24T15:04:44.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63" etag="nOnTYf2FIm09LSlYrJRq" version="20.2.6" type="github" pages="6">
   <diagram id="Cr7j9bII9cDx7bVzwEN_" name="第 1 页">
     <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1103,10 +1103,10 @@
         <mxCell id="uVT9m0xiI7R8R8FS9i3Y-32" value="Object12" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="uVT9m0xiI7R8R8FS9i3Y-1">
           <mxGeometry x="640" y="720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5wUDuOQDlewqKGgGpkyq-0" value="&lt;font color=&quot;#000000&quot;&gt;2、一个白色对象被黑色对象引用&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="uVT9m0xiI7R8R8FS9i3Y-1">
+        <mxCell id="5wUDuOQDlewqKGgGpkyq-0" value="&lt;font color=&quot;#000000&quot;&gt;条件1、一个白色对象被黑色对象引用&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="uVT9m0xiI7R8R8FS9i3Y-1">
           <mxGeometry x="390" y="510" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5wUDuOQDlewqKGgGpkyq-1" value="&lt;font color=&quot;#000000&quot;&gt;1、一个白色对象被灰色对象删除引用&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="uVT9m0xiI7R8R8FS9i3Y-1">
+        <mxCell id="5wUDuOQDlewqKGgGpkyq-1" value="&lt;font color=&quot;#000000&quot;&gt;条件2、一个白色对象被灰色对象删除引用&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="uVT9m0xiI7R8R8FS9i3Y-1">
           <mxGeometry x="560" y="330" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uVT9m0xiI7R8R8FS9i3Y-33" value="1" parent="uVT9m0xiI7R8R8FS9i3Y-0" />
