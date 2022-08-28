@@ -22,4 +22,10 @@ public class MethodAreaDemo {
 
         System.out.println("end...");
     }
+
+    public static void test1(MethodAreaDemo o){
+        o.toString();
+    }
+
+    public static String str="";
 }

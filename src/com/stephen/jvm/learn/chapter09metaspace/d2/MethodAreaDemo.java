@@ -12,4 +12,9 @@ public class MethodAreaDemo {
         int b = 50;
         System.out.println(a + b);
     }
+
+    public void test(){
+        String a ="a";
+        StaticFieldTest.stringNewTest.test(a);
+    }
 }

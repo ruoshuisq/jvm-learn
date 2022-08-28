@@ -33,4 +33,8 @@ public class StringNewTest {
         System.out.println(str2.getClass());
         System.out.println(str==str2);
     }
+
+    public void test(String s){
+
+    }
 }

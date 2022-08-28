@@ -23,4 +23,6 @@ public class StaticFieldTest {
 //            e.printStackTrace();
 //        }
     }
+
+    public static StringNewTest stringNewTest=new StringNewTest();
 }
