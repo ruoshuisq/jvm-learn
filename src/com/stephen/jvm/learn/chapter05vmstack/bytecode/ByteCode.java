@@ -1,4 +1,4 @@
-package com.stephen.jvm.learn.chapter05vmstack;
+package com.stephen.jvm.learn.chapter05vmstack.bytecode;
 
 public class ByteCode {
 
