@@ -29,5 +29,6 @@ public class ObjectNewOrUse {
         ObjectNewOrUse objectNewOrUse=new ObjectNewOrUse();
         int nn = objectNewOrUse.n;
         objectNewOrUse.n=3;
+        nn=nn+mm;
     }
 }

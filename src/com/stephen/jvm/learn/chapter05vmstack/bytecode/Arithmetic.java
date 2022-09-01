@@ -154,6 +154,23 @@ public class Arithmetic {
         }
     }
 
+    /**
+     * 位运算符
+     */
+    public void bit(){
+        int n=1;
+        n=n>>1;
+        n=n<<1;
+        long m=1;
+        m=m>>1;
+        m=m<<1;
+        int l=2;
+        n=n|l;
+        n=n&l;
+        n=n^l;
+        n=~l;
+    }
+
     public static void main(String[] args) {
         int n1=6554;
         int m1= n1++;
