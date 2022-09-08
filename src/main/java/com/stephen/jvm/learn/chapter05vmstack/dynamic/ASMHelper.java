@@ -59,7 +59,7 @@ public class ASMHelper implements Opcodes {
             }
         };
         cr.accept(cv, ClassReader.SKIP_FRAMES);
-        Files.write(Paths.get("com.stephen.jvm.learn.chapter05vmstack.dynamic.Circuit.class"), cw.toByteArray());
+//        Files.write(Paths.get("com.stephen.jvm.learn.chapter05vmstack.dynamic.Circuit.class"), cw.toByteArray());
     }
 }
 
