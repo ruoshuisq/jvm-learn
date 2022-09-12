@@ -9,7 +9,7 @@ package com.stephen.jvm.learn.chapter13string;
  */
 public class StringGCTest {
     public static void main(String[] args) {
-        for (int j = 0; j < 100000; j++) {
+        for (int j = 0; j < 60013; j++) {
             String.valueOf(j).intern();
         }
     }

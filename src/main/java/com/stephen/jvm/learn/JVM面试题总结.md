@@ -24,4 +24,43 @@ JVM规范没有强制规定永久代即方法区必须回收，但是对方法�
 
 12、对象头信息里面有哪些东西？
 
-13、
+13、new String("ab")会创建几个对象？
+
+14、new String("a")+new String("b")会创建几个对象？
+
+15、以下代码运行结果
+
+```java
+public class StringIntern {
+    public static void main(String[] args) {
+        String s = new String("1");
+        s.intern();
+        String s2 = "1";
+        System.out.println(s == s2);
+
+        String s3 = new String("1") + new String("1");
+        s3.intern();
+        String s4 = "11";
+        System.out.println(s3 == s4);
+    }
+}
+```
+
+16、jvm什么是垃圾（Garbage）
+
+![image-20220912221604656](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220912221604656.png)
+
+![image-20220912221709434](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220912221709434.png)
+
+17、哪些内存需要回收
+
+18、什么时候回收
+
+19、如何回收
+
+![image-20220912221025236](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220912221025236.png)
+
+![image-20220912221141810](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220912221141810.png)
+
+20、什么是内存泄漏
+

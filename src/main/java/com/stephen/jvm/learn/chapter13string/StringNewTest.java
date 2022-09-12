@@ -24,8 +24,8 @@ package com.stephen.jvm.learn.chapter13string;
  */
 public class StringNewTest {
     public static void main(String[] args) {
-//        String str = new String("ab");
+//        String str = new String("ab");//2个对象，字符串常量池ab
 
-        String str = new String("a") + new String("b");
+        String str = new String("a") + new String("b");//6个对象，字符串常量池a,b
     }
 }
