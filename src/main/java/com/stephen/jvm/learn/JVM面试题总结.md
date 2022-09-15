@@ -64,3 +64,9 @@ public class StringIntern {
 
 20、什么是内存泄漏
 
+21、对象的三种可能状态？
+    1）、可触及的
+    2）、可复活的
+    3）、不可触及的
+
+![image-20220914233334230](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220914233334230.png)
