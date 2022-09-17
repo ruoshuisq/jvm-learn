@@ -62,7 +62,17 @@ public class StringIntern {
 
 ![image-20220912221141810](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220912221141810.png)
 
-20、什么是内存泄漏
+20、什么是内存泄漏（Memory Leak）和内存溢出（OOM）
+
+Memeory Leak
+
+1、单例模式，单例对象引用外部对象，外部对象不能被回收，则可能会导致内存泄漏
+
+2、一些提供close的资源未关闭导致内存泄漏
+
+![image-20220917215054356](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220917215054356.png)
+
+
 
 21、对象的三种可能状态？
     1）、可触及的
@@ -70,3 +80,15 @@ public class StringIntern {
     3）、不可触及的
 
 ![image-20220914233334230](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220914233334230.png)
+
+22、并发（Concurrent）和并行（Parallel）
+
+23、安全点（Safe Point）和安全区域（Safe Region）
+
+抢先试中断
+
+主动式中断
+
+24、强引用（Strong Reference）、软引用（Soft Reference）、弱引用（Weak Reference）、虚引用（Phantom Reference）
+
+25、你在开发中使用过WeakHashMap吗
