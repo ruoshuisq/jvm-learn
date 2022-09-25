@@ -3,8 +3,9 @@ package com.stephen.jvm.learn.chapter15gc;
 import java.util.ArrayList;
 
 /**
- * -Xms60m -Xmx60m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -Xloggc:./logs/gc.log
- *
+ * -Xms60m -Xmx60m -XX:SurvivorRatio=8 -XX:+PrintGCDetails -Xloggc:./logs/gc8.log -XX:+PrintGCTimeStamps -XX:+PrintGCDateStamps
+ * jdk11+ -Xms60m -Xmx60m -XX:SurvivorRatio=8 -Xlog:gc*=info:./logs/gc17zgc.log:time
+ * jdk11+ -Xms60m -Xmx60m -XX:SurvivorRatio=8 -XX:+UnlockExperimentalVMOptions -XX:+UseZGC -Xlog:gc*=info:./logs/gc17zgc.log:time
  * @author shkstart  shkstart@126.com
  * @create 2020  18:12
  */
