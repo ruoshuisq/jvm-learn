@@ -94,3 +94,5 @@ Memeory Leak
 25、你在开发中使用过WeakHashMap吗
 
 26、![image-20220919212752588](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220919212752588.png)
+
+27、![image-20220925222347801](C:\Users\aystl\AppData\Roaming\Typora\typora-user-images\image-20220925222347801.png)

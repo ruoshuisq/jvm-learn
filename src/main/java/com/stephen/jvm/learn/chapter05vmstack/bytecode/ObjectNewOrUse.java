@@ -1,6 +1,9 @@
 package com.stephen.jvm.learn.chapter05vmstack.bytecode;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 
 public class ObjectNewOrUse {
 
@@ -12,6 +15,11 @@ public class ObjectNewOrUse {
         Object obj = new Object();
 
         File file = new File("Hello.txt");
+    }
+
+    public void newInstance2() throws FileNotFoundException {
+        InputStream inputStream=new FileInputStream("Hello.txt");
+        int m=0;
     }
 
     // 创建数组

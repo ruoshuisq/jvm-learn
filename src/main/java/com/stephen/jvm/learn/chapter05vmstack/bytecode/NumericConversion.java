@@ -1,5 +1,7 @@
 package com.stephen.jvm.learn.chapter05vmstack.bytecode;
 
+import org.junit.Test;
+
 public class NumericConversion {
 
     /**
@@ -15,6 +17,7 @@ public class NumericConversion {
         double d1 = l; // l2d
         double d2 = f1; // f2d
     }
+    @Test
     public void upCast2() {
         int i = 123123123;
         float f = i;

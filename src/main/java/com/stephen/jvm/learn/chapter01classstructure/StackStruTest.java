@@ -1,4 +1,4 @@
-package com.stephen.jvm.learn.chapter01;
+package com.stephen.jvm.learn.chapter01classstructure;
 
 /**
  * @author Stephen

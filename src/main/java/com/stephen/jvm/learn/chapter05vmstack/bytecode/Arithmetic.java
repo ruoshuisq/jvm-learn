@@ -120,6 +120,13 @@ public class Arithmetic {
     public void inc1(){
         int n1=6554;
         int m1= n1++;
+        //sipush 6554
+        //istore_1
+        //iload_1
+        //iinc 1 by 1
+        //istore_2
+        //return
+
     }
 
     /**
@@ -131,6 +138,35 @@ public class Arithmetic {
     public void inc2(){
         int n1=6554;
         int m1= ++n1;
+        //sipush 6554
+        //istore_1
+        //iinc 1 by 1
+        //iload_1
+        //istore_2
+        //return
+    }
+
+    public void inc3(){
+        int n1=6554;
+        int m1=n1+=8;
+        //sipush 6554
+        //istore_1
+        //iinc 1 by 8
+        //iload_1
+        //istore_2
+    }
+
+    public void inc4(){
+        int n1=6554;
+        n1 = n1++;
+        int m1=n1;
+        //sipush 6554
+        //istore_1
+        //iload_1
+        //iinc 1 by 1
+        //istore_1
+        //iload_1
+        //istore_2
     }
 
     public void cmp(){
